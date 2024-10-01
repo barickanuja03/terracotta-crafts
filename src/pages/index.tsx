@@ -10,9 +10,9 @@ import PremiumProducts from "@/components/PremiumProducts";
 export default function Home() {
   return (
     <>
-    <Navbar />
+     {/* <Navbar /> */}
     <Herosection />
-    {/* <Categories /> */}
+    <Categories />
     <PopularProduct />
     <PremiumProducts />
     <Footer />

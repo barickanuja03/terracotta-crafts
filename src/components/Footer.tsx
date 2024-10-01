@@ -39,7 +39,7 @@ function Footer() {
           <div
             key={navbar}
             className="flex flex-col gap-4">
-            <span className='text-lg text-white/75'><IoIosArrowForward className='inline'/>&nbsp;&nbsp;      <span className='hover:border-b-2 hover:border-pink-700 hover:pb-1 hover:pl-3 hover:rounded-sm transition-all'>   
+            <span className='text-lg text-white/75'><IoIosArrowForward className='inline'/>&nbsp;&nbsp;      <span className='hover:border-b-2 hover:border-pink-700 hover:rounded-sm transition-all duration-500 ease-in-out hover:pb-1 hover:pl-1'>   
               {navbar}  
             </span> 
             </span>
@@ -54,7 +54,7 @@ function Footer() {
             <li>
           <div className="flex flex-col gap-4">
             <span className='text-lg text-white/75'><IoIosArrowForward className='inline'/>&nbsp;&nbsp; 
-            <span className='hover:border-b-2 hover:border-pink-700 hover:pb-1 hover:pl-3 hover:rounded-sm transition-all'>View All</span></span>
+            <span className='hover:border-b-2 hover:border-pink-700 hover:rounded-sm transition-all duration-500 ease-in-out hover:pb-1 hover:pl-1'>View All</span></span>
           </div>
             </li>
         </ul>
@@ -68,7 +68,7 @@ function Footer() {
             key={connect}
             className="flex flex-col gap-5">
             <span className='text-lg text-white/75'>
-              <IoIosArrowForward className='inline'/>&nbsp;&nbsp;<span className='hover:border-b-2 hover:border-pink-700 hover:pb-1 hover:pl-3 hover:rounded-sm transition-all'>{connect}</span>
+              <IoIosArrowForward className='inline'/>&nbsp;&nbsp;<span className='hover:border-b-2 hover:border-pink-700 duration-500 ease-in-out hover:pb-1 hover:pl-1 hover:rounded-sm transition-all'>{connect}</span>
             </span>
           </div>
         ))}
